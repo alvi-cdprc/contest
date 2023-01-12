@@ -16,6 +16,7 @@ data_tm ={}
 with open('E:\Contest\contest\DataSet_A\Project_List_Data.json', 'r') as plist:
   data = json.load(plist)
   data_pl = data
+  
 print(data_pl) 
 
 
