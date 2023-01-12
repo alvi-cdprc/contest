@@ -1,17 +1,15 @@
-import json
+from main import *
 
-print("hello Q3")
+tm = data_tm
+rl = data_rl
 
-#Read json :: Resource_List_Data
-with open('E:\Contest\contest\DataSet_A\Resource_List_Data.json', 'r') as rlist:
-  data = json.load(rlist)
-  data_rl = data
-print(data_rl) 
+merge_array = []
+
+for i in tm:
+  for j in tm[i]:
+    merge_array +=tm[i][j]
+    
 
 
-#Read json :: Resource_Mapping_Data
-with open('E:\Contest\contest\DataSet_A\Resource_Mapping_Data.json', 'r') as rmap:
-  data = json.load(rmap)
-  data_rm = data
-print(data_rm) 
-
+for k in rl:
+  print(rl[k])
