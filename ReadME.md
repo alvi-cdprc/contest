@@ -8,7 +8,7 @@ Number 1 Question done and discussed Hossain + Dalwer // code done by Hossain + 
 Number 3 Question done and discussed Hossain + Dalwer + Kamrul // code done by kamrul + Hossain + Dalwer
 Number 4 Question done by  discussed Hossain + Dalwer + Kamrul // code done by dalwer + Kamrul
 
-Full project run by python programming.
+Full project run by python programming. python version 3.11.
 
 1 number question pertially done.
 3 number question fully done.
